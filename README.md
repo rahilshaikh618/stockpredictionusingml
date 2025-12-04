@@ -1,74 +1,179 @@
-# 📈 Stock Price Prediction using Machine Learning & MERN Stack
+# <p align="center">📈 Stock Price Prediction Using Machine Learning  </p>
 
-## 🔹 Overview
-This project is a **Stock Price Prediction Web Application** built using **Machine Learning** integrated with the **MERN (MongoDB, Express.js, React, Node.js) stack**.  
-It predicts future stock prices based on historical data and provides an interactive UI for visualizing stock trends.
+### <p align="center"> A Comprehensive ML Pipeline for Forecasting Stock Prices Using Classical Machine Learning Models </p>
 
-## 🔹 Features
-- 📊 Historical stock data collection via APIs  
-- 🤖 Machine Learning pipeline for stock prediction (Linear Regression, LSTM, etc.)  
-- 🎨 Interactive charts and graphs with React.js  
-- ⚡ RESTful APIs using Node.js & Express.js  
-- 🗄️ Data storage in MongoDB  
-- 📈 Real-time prediction interface  
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8%2B-blue" />
+  <img src="https://img.shields.io/badge/License-MIT-green" />
+  <img src="https://img.shields.io/badge/PRs-Welcome-orange" />
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen" />
+  <img src="https://img.shields.io/github/stars/rahilshaikh618/stockpredictionusingml?style=social" />
+</p>
 
-## 🔹 Tech Stack
-- **Frontend:** React.js, Chart.js / Recharts, TailwindCSS  
-- **Backend:** Node.js, Express.js  
-- **Database:** MongoDB  
-- **Machine Learning:** Python, Scikit-learn, Pandas, NumPy, TensorFlow/PyTorch  
-- **Deployment:** Heroku / Vercel / Render / AWS  
+<p align="center">
+  <img src="https://github.com/rahilshaikh618/stockpredictionusingml/blob/main/assets/Banner.png" alt="Project Banner" width="60%">
+</p>
 
-## 🔹 Project Structure
-├── client/ # React frontend
-├── server/ # Express backend
-├── ml-model/ # Machine Learning scripts & models
-│ ├── data/
-│ ├── notebooks/
-│ ├── model.pkl
-│ └── train.py
-└── README.md
+---
+## 🔗 GitHub Repository
 
-🔹 Installation & Setup
+👉 https://github.com/rahilshaikh618/stockpredictionusingml
 
- 1️⃣ Clone the repository
-```bash
-git clone https://github.com/your-username/stock-price-prediction.git
-cd stock-price-prediction
+---
+## 🚀 Project Overview
 
-2️⃣ Backend Setup
-cd server
-npm install
-npm start
+This project is an end-to-end implementation of Stock Price Prediction using Machine Learning, covering the full pipeline from data ingestion to model evaluation.
+The primary objective is to analyze how traditional ML algorithms perform on financial time-series forecasting and establish a baseline for future deep-learning extensions like LSTM or GRU.
 
-3️⃣ Frontend Setup
-cd client
-npm install
-npm start
-Go to ml-model/
+**The workflow includes:**
 
-4️⃣ Machine Learning Model
--Install dependencies
+📥 Data preprocessing & handling missing values
+
+🏗 Feature engineering (moving averages, trend indicators, etc.)
+
+🤖 Model building using multiple ML models
+
+📊 Visualization of predictions vs. actual prices
+
+📈 Performance evaluation through standard regression metrics
+
+This makes the project suitable for data science learners, ML practitioners, and financial analytics enthusiasts.
+
+---
+## ⭐ Key Highlights
+
+📊 End-to-end ML workflow from raw data to model output
+
+🧹 Automated preprocessing and feature engineering
+
+🧪 Multiple model comparisons
+
+🧠 Beginner-friendly, modular, and extensible codebase
+
+🖼️ Rich visualizations, updated with your latest assets
+
+📁 Clean project structure ideal for GitHub portfolios
+
+---
+## 🧠 Technologies Used
+
+| Category             | Tools               |
+| -------------------- | ------------------- |
+| **Programming**      | Python              |
+| **Data Handling**    | Pandas, NumPy       |
+| **Machine Learning** | Scikit-learn        |
+| **Visualization**    | Matplotlib, Seaborn |
+| **Environment**      | Jupyter Notebook    |
+
+---
+## 🏗 Project Structure
+```
+stockpredictionusingml/
+│
+├── data/                       # Dataset files
+├── notebooks/                  # Jupyter notebooks for full ML workflow
+├── src/                        # Modular Python scripts (preprocessing, ML models, utilities)
+├── results/                    # Model outputs, evaluation metrics, graphs
+├── assets/                     # Banner & preview visualization images
+│   ├── Banner.png              # Project banner (correct filename)
+│   └── Preview_plot.png        # Actual vs Predicted preview plot (correct filename)
+├── requirements.txt            # Python dependencies
+└── README.md                   # Project documentation
+```
+---
+## ⚙️ Installation & Setup
+1️⃣ Clone the Repository
+```
+git clone https://github.com/rahilshaikh618/stockpredictionusingml.git
+```
+2️⃣ Install Dependencies
+```
 pip install -r requirements.txt
--Train or use pre-trained model
-python train.py
+```
+3️⃣ Launch the Notebook
+```
+jupyter notebook
+```
+---
+## 🤖 Models Implemented
+**Model	Description**
 
-🔹 Usage
+| Model                       | Description                            |
+| --------------------------- | -------------------------------------- |
+| 📘 Linear Regression        | Baseline regression model              |
+| 🌲 Random Forest Regressor  | Ensemble model for improved accuracy   |
+| 🌳 Decision Tree Regressor  | Simple tree-based model                |
+| 📉 Support Vector Regressor | Regression using margin-based learning |
 
--Enter a stock ticker (e.g., AAPL, GOOG, TSLA) in the web UI.
--Fetch historical stock data via API.
--ML model processes data and generates predictions.
--View results on interactive charts.
+---
+**✔ Evaluation Metrics** 
 
-🔹 Future Improvements
-Enhance prediction accuracy with LSTMs/Transformers
-Add authentication & user dashboards
-Implement portfolio tracking
-Deploy full application to cloud (AWS/GCP/Azure)
+**All models are compared using:**
 
-🔹 Author
-👤 Mohd Rahil
+- **RMSE (Root Mean Squared Error)**
+- **MAE (Mean Absolute Error)**
+- **R² Score**
+- **Prediction vs. Actual visual comparison**
+---
+### 📈 Visualizations
 
-GitHub: github.com/rahilshaikh618
-LinkedIn: www.linkedin.com/in/mohammadrahil142
+**The project includes:**
 
+📉 Stock closing price trend plots
+
+📊 Moving averages and rolling windows
+
+🔍 Actual vs. Predicted model performance
+
+🪄 Error distribution plots
+
+<p align="center">
+  <img src="https://github.com/rahilshaikh618/stockpredictionusingml/blob/main/assets/Preview_plot.png" alt="Preview Plot" width="60%">
+</p>
+
+# <p align="center"> **Chart:Actual VS Predicted** </p>
+ 
+---
+## 🚧 Future Improvements
+
+### Planned enhancements:
+
+🔥 Add LSTM / GRU deep-learning models
+
+📡 Integrate real-time stock data API
+
+🤖 Perform hyperparameter optimization (Optuna / GridSearchCV)
+
+🎯 Deploy interactive app via Streamlit
+
+🐳 Add a Dockerized environment
+
+---
+### 🤝 Contributing
+
+Contributions are appreciated!
+
+Fork the repository
+
+Create your feature branch
+
+Commit changes
+
+Open a pull request
+
+<p align="center"> <img src="https://img.shields.io/badge/Contributions-Welcome-blue?style=for-the-badge" /> </p>
+
+---
+## 📜 License
+
+This project is released under the MIT License.
+
+---
+## 👤 Author
+
+**Mohammad Rahil**
+📧 Email: rahilshaikh618@gmail.com
+
+🔗 GitHub: [Mohd Rahil](https://github.com/rahilshaikh618)
+
+🔗 LinkedIn: [Mohammad Rahil](https://www.linkedin.com/in/mohammadrahil142/)
