@@ -149,17 +149,19 @@ jupyter notebook
 🐳 Add a Dockerized environment
 
 ---
-### 🤝 Contributing
+## 🤝 Contributing
 
-Contributions are appreciated!
+We welcome contributions that make this project better, whether it's bug fixes, improvements, or new features!
 
-Fork the repository
+How to contribute:
 
-Create your feature branch
+🔀 Fork the repository
 
-Commit changes
+🌿 Create a new feature branch
 
-Open a pull request
+💾 Commit your changes
+
+🚀 Open a pull request
 
 <p align="center"> <img src="https://img.shields.io/badge/Contributions-Welcome-blue?style=for-the-badge" /> </p>
 
